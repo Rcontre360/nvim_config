@@ -1,5 +1,6 @@
 {
   "suggest.noselect": false,
+  "diagnostic.displayByAle": true,
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
     "typescript",
@@ -10,18 +11,20 @@
     "graphql",
     "cpp",
     "css",
-   "less",
-   "scss",
-   "graphql",
-   "markdown",
-   "vue",
-   "lua",
-   "php",
-   "python",
-   "ruby",
-   "html",
-   "swift",
-   "solidity"
+    "less",
+    "scss",
+    "graphql",
+    "markdown",
+    "vue",
+    "lua",
+    "php",
+    "python",
+    "ruby",
+    "html",
+    "swift",
+    "solidity",
+    "rust"
   ],
-  "clangd.path": "/home/rafael/.config/coc/extensions/coc-clangd-data/install/12.0.0/clangd_12.0.0/bin/clangd"
+  "clangd.path": "/home/rafael/.config/coc/extensions/coc-clangd-data/install/12.0.0/clangd_12.0.0/bin/clangd",
+  "coc.preferences.extensionUpdateCheck": "never"
 }
