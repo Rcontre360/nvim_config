@@ -6,6 +6,7 @@
     "typescript",
     "typescriptreact",
     "json",
+    "java",
     "javascriptreact",
     "typescript.tsx",
     "graphql",
@@ -25,14 +26,38 @@
     "solidity",
     "circom",
     "go",
+    "haskell",
     "rust"
   ],
-  "clangd.path": "/home/rafael/.config/coc/extensions/coc-clangd-data/install/12.0.0/clangd_12.0.0/bin/clangd",
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/18.1.3/clangd_18.1.3/bin/clangd",
   "coc.preferences.extensionUpdateCheck": "never",
   "snippets.ultisnips.pythonPrompt": false,
   "workspace.ignoredFolders": [
     "$HOME",
     "$HOME/.cargo/**",
     "$HOME/.rustup/**"
-  ]
+  ],
+  "languageserver": {
+    "haskell": {
+      "command": "haskell-language-server-wrapper",
+      "args": [
+        "--lsp"
+      ],
+      "rootPatterns": [
+        ".stack.yaml",
+        ".hie-bios",
+        "BUILD.bazel",
+        "cabal.config",
+        "package.yaml"
+      ],
+      "filetypes": [
+        "hs",
+        "lhs",
+        "haskell"
+      ]
+    }
+  },
+  "go.goplsOptions": {
+    "completeUnimported": true
+  }
 }

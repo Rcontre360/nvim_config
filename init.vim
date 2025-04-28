@@ -25,6 +25,7 @@ Plug 'tpope/vim-surround'
 Plug 'dense-analysis/ale'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 Plug 'iden3/vim-circom-syntax'
+"Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'heavenshell/vim-jsdoc', {
   \ 'for': ['javascript', 'javascript.jsx','typescript'],
   \ 'do': 'make install'
@@ -32,8 +33,8 @@ Plug 'heavenshell/vim-jsdoc', {
 Plug 'prettier/vim-prettier', {
   \ 'do': 'npm install && npm add prettier-plugin-solidity',
   \ 'for': [
-    \ 'javascript',
     \ 'typescript',
+    \ 'javascript',
     \ 'typescriptreact',
     \ 'javascriptreact',
     \ 'css',
@@ -50,14 +51,14 @@ Plug 'prettier/vim-prettier', {
     \ 'html',
     \ 'swift',
     \ 'cpp',
+    \ 'go',
     \ 'rust',
     \ 'circom',
-    \ 'go',
     \ 'solidity'] }
 
-Plug 'fatih/vim-go'
-"Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+"Plug 'nvim-treesitter/nvim-treesitter'
 "Plug 'neovim/nvim-lspconfig'
+"Plug 'ray-x/go.nvim'
 "Plug 'ray-x/go.nvim'
 
 
@@ -391,3 +392,4 @@ let g:mkdp_filetypes = ['markdown']
 " set default theme (dark or light)
 " By default the theme is define according to the preferences of the system
 let g:mkdp_theme = 'dark'
+
